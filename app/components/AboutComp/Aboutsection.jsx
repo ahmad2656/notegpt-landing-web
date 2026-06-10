@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "@mui/material/Container";
-import robo from "../../assets/png/robo.png";
+import robo from "../../../public/assets/png/robo.png";
 import BorderCard from "../BorderCard/BorderCard.jsx";
 import "../../components/AboutComp/Aboutsection.scss";
 export default function Aboutsection() {

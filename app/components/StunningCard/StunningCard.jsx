@@ -2,9 +2,9 @@
 import "./StunningCard.scss";
 import { FaDotCircle } from "react-icons/fa";
 import Image from "next/image";
-import chatbot from "../../assets/png/chatbot.png";
-import chatgpt from "../../assets/png/chatgpt2.webp";
-import deepseek from "../../assets/png/deepseek2.webp";
+import chatbot from "../../../public/assets/png/chatbot.png";
+import chatgpt from "../../../public/assets/png/chatgpt2.webp";
+import deepseek from "../../../public/assets/png/deepseek2.webp";
 import Lottie from "lottie-react";
 import animatedvector from "../../assets/json/Artificial Intelligence.json";
 export const Footerdtail = () => {

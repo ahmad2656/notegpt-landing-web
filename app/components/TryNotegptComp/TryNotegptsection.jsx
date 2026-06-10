@@ -1,6 +1,6 @@
 import Image from "next/image";
-import notegptmain from "../../assets/image/gptroboo.jpeg";
-import notegptlogo from "../../assets/png/notegpt logo.png";
+import notegptmain from "../../../public/assets/image/gptroboo.jpeg";
+import notegptlogo from "../../../public/assets/png/notegpt logo.png";
 import Container from "@mui/material/Container";
 import "../TryNotegptComp/TryNotegpt.scss";
 import RotatingText from "../../RotatingText/RotatingText";

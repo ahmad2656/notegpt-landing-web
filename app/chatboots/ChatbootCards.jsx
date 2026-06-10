@@ -1,8 +1,8 @@
 import StylishCard from "../StylishCard/StylishCard";
-import claude from "../../app/assets/png/claude.webp";
-import deepseek from "../../app/assets/png/deepseek2.webp";
-import chatgpt from "../../app/assets/png/chatgpt2.webp";
-import gemini from "../../app/assets/png/gemini.webp";
+import claude from "../../public/assets/png/claude.webp"
+import deepseek from "../../public/assets/png/deepseek2.webp";
+import chatgpt from "../../public/assets/png/chatgpt2.webp";
+import gemini from "../../public/assets/png/gemini.webp";
 
 export const Chatgpt = () => {
   return (

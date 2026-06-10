@@ -10,13 +10,13 @@ import { useRef, useEffect } from "react";
 import { Container } from "@mui/material";
 import Button from "../Btn/Button.jsx";
 import Lottie from "lottie-react";
-import aipicgenerate from "../../assets/json/pic.json";
-import textspeech from "../../assets/json/Voice - Translate AI.json";
-import presentation from "../../assets/json/Presentation.json";
-import removebg from "../../assets/json/Remove Background animation.json";
-import videogenerate from "../../assets/json/video production.json";
-import summarizing from "../../assets/json/Notes animation.json";
-import quiz from "../../assets/json/quiz animation.json";
+import aipicgenerate from "../../../public/assets/json/pic.json";
+import textspeech from "../../../public/assets/json/Voice - Translate AI.json";
+import presentation from "../../../public/assets/json/Presentation.json";
+import removebg from "../../../public/assets/json/Remove Background animation.json";
+import videogenerate from "../../../public/assets/json/video production.json";
+import summarizing from "../../../public/assets/json/Notes animation.json";
+import quiz from "../../../public/assets/json/quiz animation.json";
 
 const Featuresection = () => {
   const cardRefs = useRef([]);

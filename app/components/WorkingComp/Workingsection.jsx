@@ -1,8 +1,8 @@
 import "../../components/WorkingComp/Workingsection.scss";
 import Lottie from "lottie-react";
-import inputai from "../../assets/json/AI loading.json";
-import ai from "../../assets/json/ai.json";
-import aimachine from "../../assets/json/brain process.json";
+import inputai from "../../../public/assets/json/AI loading.json";
+import ai from "../../../public/assets/json/ai.json";
+import aimachine from "../../../public/assets/json/brain process.json";
 
 export default function Workingsection() {
   const cards = [
