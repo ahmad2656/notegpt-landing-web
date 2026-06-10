@@ -2,9 +2,9 @@
 "use client";
 import Image from "next/image";
 import { useEffect } from "react";
-import robo from "../assets/png/geminir.png";
-import textrobot from "../assets/png/chatbot.png";
-import animatedrobo from "../assets/json/glassy ai.json";
+import robo from "@/src/assets/png/geminir.png";
+import textrobot from "@/src/assets/png/chatbot.png";
+import animatedrobo from "@/src/assets/json/glassy ai.json";
 import Lottie from "lottie-react";
 import { PiSkipBackFill } from "react-icons/pi";
 import Link from "next/link";

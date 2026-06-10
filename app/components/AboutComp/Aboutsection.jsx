@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Container from "@mui/material/Container";
-import robo from "../../../public/assets/png/robo.png";
+import robo from "@/src/assets/png/robo.png";
 import BorderCard from "../BorderCard/BorderCard.jsx";
 import "../../components/AboutComp/Aboutsection.scss";
 export default function Aboutsection() {
@@ -10,8 +10,8 @@ export default function Aboutsection() {
         <Container>
           <div className="heads-layout">
             <h2 className="infinite-text">
-              One Platform Infinite   
-                 <span id="possible-text">Possibilities.</span>
+              One Platform Infinite
+              <span id="possible-text">Possibilities.</span>
             </h2>
             <div className="border-card-layout">
               <BorderCard /> <Image src={robo} alt="" id="feature-robot-pic" />

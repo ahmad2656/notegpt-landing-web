@@ -1,7 +1,7 @@
 "use client";
 import StunningCard from "../StunningCard/StunningCard";
 import { Container } from "@mui/material";
-import notegptlogo from "../../../public/assets/png/notegpt logo.png";
+import notegptlogo from "@/src/assets/png/notegpt logo.png";
 import Image from "next/image";
 import "./Footer.scss";
 

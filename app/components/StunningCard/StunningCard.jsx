@@ -2,11 +2,11 @@
 import "./StunningCard.scss";
 import { FaDotCircle } from "react-icons/fa";
 import Image from "next/image";
-import chatbot from "../../../public/assets/png/chatbot.png";
-import chatgpt from "../../../public/assets/png/chatgpt2.webp";
-import deepseek from "../../../public/assets/png/deepseek2.webp";
+import chatbot from "@/src/assets/png/chatbot.png";
+import chatgpt from "@/src/assets/png/chatgpt2.webp";
+import deepseek from "@/src/assets/png/deepseek2.webp";
 import Lottie from "lottie-react";
-import animatedvector from "../../assets/json/Artificial Intelligence.json";
+import animatedvector from "@/src/assets/json/Artificial Intelligence.json";
 export const Footerdtail = () => {
   return (
     <>

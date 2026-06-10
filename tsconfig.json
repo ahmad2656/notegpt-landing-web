@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*", "./*"]
     }
   },
   "include": [
@@ -28,7 +28,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
-, "app/page.jsx", "next.config.js"  ],
+    "**/*.mts",
+    "app/page.jsx",
+    "next.config.js"
+  ],
   "exclude": ["node_modules"]
 }

@@ -1,4 +1,16 @@
+# Next.js ke liye yeh redirects zaroori hai
+[[redirects]]
+  from = "/_next/*"
+  to = "/_next/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
+
+# SPA fallback (optional)
 [[redirects]]
   from = "/*"
-  to = "/404"
-  status = 404
+  to = "/index.html"
+  status = 200

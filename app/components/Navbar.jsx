@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import notegptlogo from "../../public/assets/png/notegpt logo.png";
+import notegptlogo from "@/src/assets/png/notegpt logo.png";
 import "./Navbar.scss";
 import { useState, useEffect } from "react";
 import {
