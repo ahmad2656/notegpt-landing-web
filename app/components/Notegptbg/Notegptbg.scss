@@ -1,0 +1,17 @@
+.nptegptbg-portion {
+  padding: 7rem 0 2rem 0;
+
+  @media screen and (max-width: 800px) {
+  padding: 0rem 0 2rem 0;
+
+  }
+  #feature-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+  }
+}

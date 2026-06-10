@@ -1,0 +1,96 @@
+.about-portion {
+  padding: 0rem 0 5rem 0;
+  background: linear-gradient(rgb(5, 5, 33), rgb(6, 6, 31));
+
+  .heads-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    .infinite-text {
+      font-size: 3rem;
+
+      @media only screen and (max-width: 1200px) {
+        width: 100%;
+        @media only screen and (max-width: 600px) {
+          font-size: 2rem;
+          line-height: 3rem;
+          text-align: center;
+        }
+        @media only screen and (max-width: 380px) {
+          font-size: 1.7rem;
+          line-height: 2rem;
+        }
+      }
+    }
+    #possible-text {
+      color: rgb(121, 121, 189);
+      position: relative;
+      left: 1rem;
+
+      @media only screen and (max-width: 600px) {
+        left: 0.7rem;
+      }
+    }
+    .notegpt-para {
+      font-size: 1.2rem;
+      width: 800px;
+      line-height: 2.2rem;
+      text-align: center;
+      @media only screen and (max-width: 1200px) {
+        width: 100%;
+        position: relative;
+        top: 2rem;
+        @media only screen and (max-width: 600px) {
+          font-size: 1rem;
+          line-height: 1.7rem;
+        }
+
+        @media only screen and (max-width: 380px) {
+          font-size: 0.8rem;
+          line-height: 1.5rem;
+        }
+      }
+    }
+    .border-card-layout {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      gap: 2rem;
+
+      @media only screen and (max-width: 1200px) {
+        flex-direction: column-reverse;
+      }
+
+      #feature-robot-pic {
+        height: auto;
+        width: 44rem;
+        object-fit: cover;
+        -webkit-mask-image: linear-gradient(to top, transparent 5%, black 40%);
+        mask-image: linear-gradient(to top, transparent 5%, black 40%);
+        animation: float 3s ease-in-out infinite;
+        @keyframes float {
+          0% {
+            transform: translateY(0px);
+          }
+          50% {
+            transform: translateY(-20px);
+          }
+          100% {
+            transform: translateY(0px);
+          }
+        }
+
+        @media only screen and (max-width: 1200px) {
+          width: 100%;
+          @media only screen and (max-width: 600px) {
+            position: relative;
+            right: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

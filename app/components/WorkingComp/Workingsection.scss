@@ -1,0 +1,185 @@
+.working-heads {
+  background: #06061f;
+  display: flex;
+  justify-content: center;
+  #work-head-text {
+    font-size: 4rem;
+    padding-inline: 2rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    word-spacing: 10px;
+    border: dotted 4px white;
+    @media screen and (max-width: 600px) {
+      font-size: 3rem;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 2rem;
+    }
+  }
+
+  #work-text {
+    color: #3e3ea7;
+    position: relative;
+    left: 1rem;
+  }
+  .two-lines {
+    border: 1px solid #f7f6f6;
+  }
+}
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5rem 0 7rem 0;
+  background: #05061f;
+  gap: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: 1280px) {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-inline: 1rem;
+  }
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media only screen and (max-width: 1280px) {
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 1rem;
+  }
+}
+
+.ai-operation-card {
+  width: 300px;
+  height: 600px;
+  background: #07182e;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 1.4rem;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  @media only screen and (max-width: 1280px) {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+  }
+
+  .lottie-wrapper,
+  .counts,
+  .card-title {
+    z-index: 1;
+    position: relative;
+  }
+
+  .lottie-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    @media only screen and (max-width: 1280px) {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .lottie-fields-vector {
+    width: 15rem;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .counts {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: white;
+  }
+
+  .card-title {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    padding-inline: 1.4rem;
+    line-height: 1.8rem;
+    text-align: center;
+    @media screen and (max-width: 1280px) and (min-width: 650px) {
+      font-size: 2rem;
+    }
+    @media screen and (max-width: 649px) and (min-width: 500px) {
+      font-size: 1.4rem;
+    }
+  }
+
+  .counter-bg {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    background-color: darkblue;
+    padding: 1.2rem;
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(
+      180deg,
+      rgb(0, 183, 255),
+      rgb(255, 48, 255)
+    );
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+    z-index: 0;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background: #07182e;
+    inset: 5px;
+    border-radius: 15px;
+    z-index: 0;
+  }
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

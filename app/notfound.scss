@@ -1,0 +1,21 @@
+.not-found-section {
+  padding: 5rem 0 5rem 0;
+  .not-found-layout {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+     @media screen and (max-width: 768px) {
+      flex-direction: column;
+      gap: 2rem;}
+  }
+  .not-found-animated-vector {
+    width: 70rem;
+    height: auto;
+    object-fit: cover;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
