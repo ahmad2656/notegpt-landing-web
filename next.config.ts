@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
     unoptimized: true,
   },
+  reactStrictMode: false,
 };
 
 export default withNextVideo(nextConfig, { folder: "assets" });
