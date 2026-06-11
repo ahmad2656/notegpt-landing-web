@@ -46,7 +46,7 @@ export const Gemini = () => {
       toolsfeaturethree="Google Workspace plugins"
       toollinks="Try Gemini"
       imagestyle="picstyles"
-      navlinks="https://gemini.google.com/app"
+      navlinks="https://gemini.google.com/"
     />
   );
 };
